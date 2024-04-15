@@ -1,0 +1,33 @@
+\doxysection{triangle\+\_\+triangle\+\_\+intersect\+\_\+shared\+\_\+edge.\+h}
+\hypertarget{triangle__triangle__intersect__shared__edge_8h_source}{}\label{triangle__triangle__intersect__shared__edge_8h_source}\index{include/igl/triangle\_triangle\_intersect\_shared\_edge.h@{include/igl/triangle\_triangle\_intersect\_shared\_edge.h}}
+\mbox{\hyperlink{triangle__triangle__intersect__shared__edge_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ IGL\_TRIANGLE\_TRIANGLE\_INTERSECT\_SHARED\_EDGE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ IGL\_TRIANGLE\_TRIANGLE\_INTERSECT\_SHARED\_EDGE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{igl__inline_8h}{igl\_inline.h}}"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <Eigen/Core>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceigl}{igl}}}
+\DoxyCodeLine{00008\ \{}
+\DoxyCodeLine{00026\ \ \ \textcolor{keyword}{template}\ <}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{typename}\ DerivedV,}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keyword}{typename}\ DerivedF,}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keyword}{typename}\ Derivedp>}
+\DoxyCodeLine{00030\ \ \ \mbox{\hyperlink{igl__inline_8h_a838241279013352686271b4c4ce1f708}{IGL\_INLINE}}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{namespaceigl_a75c6c8f2352581307c3c4bfd2e415af0}{triangle\_triangle\_intersect\_shared\_edge}}(}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keyword}{const}\ Eigen::MatrixBase<DerivedV>\ \&\ V,}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keyword}{const}\ Eigen::MatrixBase<DerivedF>\ \&\ F,}
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ f,}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ c,}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keyword}{const}\ Eigen::MatrixBase<Derivedp>\ \&\ p,}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ g,}
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{typename}\ DerivedV::Scalar\ epsilon);}
+\DoxyCodeLine{00038\ \}}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \textcolor{preprocessor}{\#ifndef\ IGL\_STATIC\_LIBRARY}}
+\DoxyCodeLine{00041\ \textcolor{preprocessor}{\#\ \ include\ "{}triangle\_triangle\_intersect\_shared\_edge.cpp"{}}}
+\DoxyCodeLine{00042\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

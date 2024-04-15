@@ -1,0 +1,30 @@
+\doxysection{include/igl/decimate\+\_\+callback\+\_\+types.h File Reference}
+\hypertarget{decimate__callback__types_8h}{}\label{decimate__callback__types_8h}\index{include/igl/decimate\_callback\_types.h@{include/igl/decimate\_callback\_types.h}}
+
+
+See \doxylink{decimate_8h}{decimate.\+h} for more details.  
+
+
+{\ttfamily \#include $<$Eigen/\+Core$>$}\newline
+{\ttfamily \#include "{}min\+\_\+heap.\+h"{}}\newline
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespaceigl}{igl}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{namespaceigl_ad491e7bd59de89b3b0adbf18ace34d71}{igl\+::decimate\+\_\+cost\+\_\+and\+\_\+placement\+\_\+callback}}
+\begin{DoxyCompactList}\small\item\em Function handle used to control the cost of each edge collapse in \doxylink{namespaceigl_ab7213058aa5105bbd82e36916c83aaf1}{igl\+::decimate}. \end{DoxyCompactList}\item 
+using \mbox{\hyperlink{namespaceigl_a108b16237ba40c565182a72172eecaee}{igl\+::decimate\+\_\+stopping\+\_\+condition\+\_\+callback}}
+\begin{DoxyCompactList}\small\item\em Function handle used to control whether the queue processing in \doxylink{namespaceigl_ab7213058aa5105bbd82e36916c83aaf1}{igl\+::decimate} should stop. \end{DoxyCompactList}\item 
+using \mbox{\hyperlink{namespaceigl_af67a3707e497c56b7441286ededad887}{igl\+::decimate\+\_\+pre\+\_\+collapse\+\_\+callback}}
+\begin{DoxyCompactList}\small\item\em Function handle called just before {\ttfamily collapse\+\_\+edge} is attempted. \end{DoxyCompactList}\item 
+using \mbox{\hyperlink{namespaceigl_a453f8478ee3a83330e57ebbe23e0fe29}{igl\+::decimate\+\_\+post\+\_\+collapse\+\_\+callback}}
+\begin{DoxyCompactList}\small\item\em Function handle called just after {\ttfamily collapse\+\_\+edge} is attempted. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+See \doxylink{decimate_8h}{decimate.\+h} for more details. 
+
