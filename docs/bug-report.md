@@ -1,5 +1,7 @@
 Before opening an issue on creating a pull request, please check the following:
 
+
+
 !!! tip
     
     - Make sure you read the
